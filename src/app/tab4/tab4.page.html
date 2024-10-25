@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Cuadratica
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Solucion ecuacion 
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-input id="a" type="number" [(ngModel)]="a" (ionInput)="actualizarSolucion()"></ion-input>
+  <ion-input id="b" type="number" [(ngModel)]="b" (ionInput)="actualizarSolucion()"></ion-input>
+  <ion-input id="c" type="number" [(ngModel)]="c" (ionInput)="actualizarSolucion()"></ion-input>
+  
+  <ion-item>
+    <ion-input id="solucion" label="Solución: " [value]="solucion" readonly></ion-input>
+  </ion-item>
+</ion-content>
+
+  
