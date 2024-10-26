@@ -6,7 +6,19 @@
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Calcula la Diferencia de Días</ion-card-title>
+      <ion-card-subtitle>Selecciona dos fechas para conocer cuántos días hay entre ellas.</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        Utiliza los calendarios de   a continuación para elegir tu fecha inicial y tu fecha final. Podrás ver   la diferencia de días entre las dos fechas seleccionadas.
+      </p>
+    </ion-card-content>
+  </ion-card>
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Datepickers</ion-title>
@@ -17,7 +29,7 @@
   <br>
   <ion-datetime [(ngModel)]="fechaFinal" presentation="date" (ionChange)="calcularDiferencia()"></ion-datetime>
 
-  <ion-item>
+  <hr><hr><ion-item>
     <ion-input label="Diferencia: " [value]="diferencia" readonly></ion-input>
-  </ion-item>
+  </ion-item><hr><hr>
 </ion-content>

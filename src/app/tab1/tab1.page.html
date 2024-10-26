@@ -21,7 +21,7 @@
   <ion-card>
     <ion-card-header>
       <ion-card-title>Biografía personal</ion-card-title>
-      <ion-card-subtitle>Francisco Caero</ion-card-subtitle>
+      <ion-card-subtitle>Francisco José Caero Toapanta </ion-card-subtitle>
     </ion-card-header>
   </ion-card>
   <ion-grid>
@@ -64,29 +64,73 @@
     </ion-item>
 
   </ion-list>
-
-  <ion-note>Graduado del colegio Técnico 13 de Abril en Electrónica de Consumo y ahora <br> estudiando Tecnología Superior  en Desarrollo de Software en la EPN.</ion-note>
-
+  <hr>
+  <ion-note>Graduado del colegio Técnico 13 de Abril en Electrónica de Consumo y ahora  estudiando Tecnología Superior  en Desarrollo de Software en la EPN.</ion-note>
+  <hr>
   <ion-item>
     <ion-textarea [disabled]="true" label="Breve biografía" placeholder="Hijo de Roger Caero y Myrian Toapanta, nacido el 20 de abril de 2001, tengo dos hermanos menores de 18 y 19 años, vivo con todos ellos al sur de Quito en la Lucha de los Pobres."></ion-textarea>
   </ion-item>
   <ion-list>
     <ion-item>
       <ion-select aria-label="habilidad" interface="popover" placeholder="Habilidades">
-        <ion-select-option value="Comunicación">Apples</ion-select-option>
-        <ion-select-option value="Trabajo en equipo">Oranges</ion-select-option>
-        <ion-select-option value="Creatividad">Bananas</ion-select-option>
+        <ion-select-option value="Comunicación">Comunicación</ion-select-option>
+        <ion-select-option value="Trabajo en equipo">Trabajo en equipo</ion-select-option>
+        <ion-select-option value="Creatividad">Creatividad</ion-select-option>
       </ion-select>
     </ion-item>
   </ion-list>
 
-    <ion-item>
-    <ion-textarea [disabled]="true" label="Disabled textarea" placeholder="Can't type here"></ion-textarea>
-  </ion-item>
-
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Familia</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-card-content>
+        <h4>Padres</h4>
+        <p>Roger Caero</p>
+        <p>Myrian Toapanta</p>
+        <h4>Hermanos</h4>
+        <p>Roger Daniel Caero</p>
+        <p>Alexander Caero</p>
+      </ion-card-content>
+    </ion-card-content>
+  </ion-card>
+  
+  <hr>
   <ion-label>Desde que era pequeño he sentido afición por la tecnología, las distintas formas de arte y los juegos. </ion-label>
 
+  <hr><ion-item>
+    <ion-textarea [disabled]="true" label="Mi carrera" placeholder="Ahora mismo una de las cosas que más disfruta es aprender sobre mi carrera y descubrir las distintas tecnologías de programación"></ion-textarea>
+  </ion-item>
+  <ion-list>
+    <ion-item>
+      <ion-badge slot="start">1</ion-badge>
+      <ion-label>Java </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start" color="tertiary">2</ion-badge>
+      <ion-label>HTML/CSS/JS</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start" color="warning">3</ion-badge>
+      <ion-label>C++</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-badge slot="start" color="success">4</ion-badge>
+      <ion-label>T-SQL</ion-label>
+    </ion-item>
 
+  </ion-list>
+  <hr>
+  <ion-item>
+    <ion-textarea
+      placeholder="Un poco sobre mí"
+      [autoGrow]="true"
+      readonly
+      value="Nací en una familia pequeña como hijo único, a los pocos años tuve dos hermanos; me crié y crecí con ellos. Nuestras principales aficiones de niños eran la lectura, la televisión, el fútbol y estudiar, esto se podía reflejar en mis logros académicos. Estudiamos en distintos establecimientos de la ciudad y conocimos distintas personas. Conforme fui creciendo empecé a tener más hobbies e intereses, también viajamos a diferentes ciudades despertando la curiosidad de aprender sobre distintos temas. Mi gusto por la tecnología me llevó a estudiar en un colegio Técnico donde aprendí sobre Electrónica,aunque me gustó descubrí que mi parte favorita fue programar, así ingresé a la Universidad ddonde  empecé a seguir Desarrollo de Software, hoy me siento muy feliz ahí y muy emocionado por las  posibilidades que me ofrece. "
+    >
+    </ion-textarea>
+  </ion-item><hr><hr>
 
 
 
