@@ -66,7 +66,7 @@ Una vez la aplicación fue compelatada y probada en el navegador, con Android St
 
 **Archivo apk: **
 
-app-debug.apk
+[app-debug.apk](https://github.com/franciscocaero/Prueba/blob/38199d1110c6dc1c8a7216e2a02239c60b5949bb/app-debug.apk)
 
 
 
