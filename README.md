@@ -69,5 +69,19 @@ Una vez la aplicación fue compelatada y probada en el navegador, con Android St
 [app-debug.apk](https://github.com/franciscocaero/Prueba/blob/38199d1110c6dc1c8a7216e2a02239c60b5949bb/app-debug.apk)
 
 
+**Nueva APK**
+
+Se mejoro la aplicacion usando un icono personalizado y una splash screen. Se agregó imágenes que se incluyen al iniciar la aplicación.
+
+![image](https://github.com/user-attachments/assets/53e253cc-4804-4f44-8048-f7dd17777be0)
+
+![image](https://github.com/user-attachments/assets/af4ebcff-8d75-4b54-8fdf-9c3f293350f5)
+
+![image](https://github.com/user-attachments/assets/9f763fed-80bc-449c-a3d3-874dae12686b)
+
+![image](https://github.com/user-attachments/assets/7ce9bc5f-9edc-4529-960f-315b8a6ac304)
+
+
+
 
 
