@@ -83,5 +83,7 @@ Se mejoro la aplicacion usando un icono personalizado y una splash screen. Se ag
 
 
 
+**APK actualizada**
 
+https://github.com/franciscocaero/Prueba/blob/2402b299a4085907f743674f1c2d9e87ebb025e9/pruebav2.apk
 
